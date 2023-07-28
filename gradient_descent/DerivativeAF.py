@@ -5,3 +5,6 @@ def deriv_identity(x):
 
 def deriv_relu(x):
     return (x > 0).astype(x.dtype)
+
+def deriv_sigmoid(x):
+    
